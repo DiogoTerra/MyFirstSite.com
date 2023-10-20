@@ -46,7 +46,7 @@ body{
      width: 35px;
      border-radius: 20px;
      transition: all 0.3s ease-in-out;
-     box-shadow: 0 2px rgb(254, 252, 252);
+     box-shadow: 0 2px darkgreen;
      margin: 3px;
      overflow: hidden;
  }
