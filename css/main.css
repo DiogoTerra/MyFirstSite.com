@@ -2,13 +2,13 @@
      margin: 0;
      padding: 0;
 }
-.body{
+body{
      height: 100%; /* altura */
      width: 100%; /* altura */
      display: flex;
      justify-content: center;
-     background: brown;
-    
+     background: linear-gradient(rgb(6, 228, 140),gray);
+     background-repeat: no-repeat;
 }
 
 .imagem{
@@ -28,7 +28,7 @@
      justify-content: center; 
      font-size: 32px;
      font-weight: 600;  
-     color: darkgreen;
+     color: green;
      font-family: 'Times New Roman', Times, serif; /* Fonte do Texto */
  }
 .redes-sociais{
@@ -38,25 +38,38 @@
      align-items: center;
  }
  .redes-sociais a{
-   text-decoration: none;
+     text-decoration: none;
  }
- .icone, .email{
+ .icone, #email{
      display: flex;
-     height: 40px;
-     width: 40px;
-     border-radius: 40px;
+     height: 35px;
+     width: 35px;
+     border-radius: 20px;
      transition: all 0.3s ease-in-out;
-     box-shadow: 0 5px rgba(0, 0, 0, 1);
+     box-shadow: 0 2px rgb(254, 252, 252);
      margin: 3px;
      overflow: hidden;
  }
- .icone i, .email{
-     display: flex;
-     width: 40px;
-     height: 40px;
-     line-height: 40px;
+ .icone i, #email i{
+     display: inline-block;
+     width: 35px;
+     height: 35px;
+     line-height: 35px;
      text-align: center;
      font-size: 22px;
      background: lightgreen;
-     color: green;
+     color: darkgreen;
+ }
+ .icone span a{
+      list-style: auto;
+      font-family: 'Courier New', Courier, monospace;
+      float: ;
+      margin-left: 25px;
+      color: darkgreen;
+      line-height: 35px;
+      font-size: 13px;
+ }
+ .icone:hover{
+    width: 160px;
+    background: white;
  }
