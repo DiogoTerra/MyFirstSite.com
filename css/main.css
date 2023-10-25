@@ -118,12 +118,11 @@ body{
     justify-content: center;
 }
 .linguagem, .img{
-    border-radius: 10px;
-    position: ;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 280px;
-    border-radius: 100px;
-    box-shadow: 5px 5px 3px rgb(rgb(87, 86, 87));
-    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(rgb(87, 86, 87));
+    margin: 5px;
 }
