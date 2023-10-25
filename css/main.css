@@ -18,7 +18,7 @@ body{
  }
 .imagem img{
      width: 170px; /*tamanho da foto do logo */
-     border-radius: 200px;
+     border-radius: 150px;
      margin-top: 30px;
  }
 
@@ -28,7 +28,7 @@ body{
      justify-content: center; 
      font-size: 32px;
      font-weight: 600;  
-     color: green;
+     color: darkgreen;
      font-family: 'Times New Roman', Times, serif; /* Fonte do Texto */
  }
 .redes-sociais{
@@ -50,7 +50,7 @@ body{
      margin: 3px;
      overflow: hidden;
  }
- .icone i, #email i{
+ .icone i, #email i{ /* Icones das redes sociais */
      display: inline-block;
      width: 35px;
      height: 35px;
@@ -69,7 +69,61 @@ body{
       line-height: 35px;
       font-size: 13px;
  }
- .icone:hover{
-    width: 160px;
-    background: white;
+ .icone:hover{  /* Efeito do nome dos Icones */
+     width: 160px;
+     background: white;
  }
+
+ .texto {
+     display: flex;
+     position: ;
+     justify-content: center;
+     align-items: center;
+     margin: 50px 30px;
+     font-family: Arial, Helvetica, sans-serif ;
+     font-size: 20px;
+     text-align: justify;
+     width: 500px;
+     height: 120px;
+     padding: 40px;
+     border-radius: 10px;
+     color: white;
+     background-color: rgb(11, 203, 107);
+     overflow: hidden;
+     box-shadow: 5px 5px 3px rgb(62, 63, 63);
+}
+.sobre-mim{
+    position: absolute;
+    top: 360px;
+    display: flex;
+    color: darkgreen;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 30;
+    text-align: center;
+    font-weight: 600;
+    line-height: 40px;
+}
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+.linguagem{
+    display: flex;
+    justify-content: center;
+}
+.linguagem, .img{
+    border-radius: 10px;
+    position: ;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 3px rgb(rgb(87, 86, 87));
+    margin: 10px;
+}
