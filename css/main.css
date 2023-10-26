@@ -63,7 +63,7 @@ body{
  .icone span a{
       list-style: auto;
       font-family: 'Courier New', Courier, monospace;
-      float: ;
+     /* float: ; Função desabilitada*/ 
       margin-left: 25px;
       color: darkgreen;
       line-height: 35px;
@@ -76,7 +76,7 @@ body{
 
  .texto {
      display: flex;
-     position: ;
+     /*position: ; Função desabilitada*/ 
      justify-content: center;
      align-items: center;
      margin: 50px 30px;
@@ -125,4 +125,43 @@ body{
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgb(rgb(87, 86, 87));
     margin: 5px;
+}
+.projetos {
+    margin-top: 50px;
+    flex-direction: column;
+}
+.item{
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    height: 40px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkgreen;
+    background: lightgreen;
+    box-shadow: 2px 2px 2px rgb(58, 56, 58);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.item:hover{
+    transition: 0.1s;
+    background: white;
+}
+.video{
+    padding: 15px;
+    margin: auto;
+    display: none;
+}
+.video:active{
+    display: block;
+}
+footer p{
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: ;
 }
