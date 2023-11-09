@@ -1,21 +1,21 @@
-const Album = document.getElementById('AlbumFotos');
-const Buffet = document.getElementById('Buffet');
-const VideoBuffet = document.querySelector('#VideoBuffet');
-
-const VideoAlbum = document.querySelector('#VideoAlbum');
 const casamentos = document.getElementById('casamentos');
-const VideoCasamentos = document.querySelector('#VideoCasamentos');
+const album= document.getElementById('album');
+const buffet = document.getElementById('buffet');
+
+const videoCasamentos = document.querySelector('#videoCasamentos');
+const videoAlbum = document.querySelector('#videoAlbum');
+const videoBuffet = document.querySelector('#videoBuffet');
 
 
-album.addEventListener('click', () => {
-    Album.classList.toggle('active');
-    VideoAlbum.classList.toggle('active');
-});
 casamentos.addEventListener('click', () => {
     casamentos.classList.toggle('active');
-    VideoCasamentos.classList.toggle('active');
+    videoCasamentos.classList.toggle('active');
+});
+album.addEventListener('click', () => {
+    album.classList.toggle('active');
+    videoAlbum.classList.toggle('active');
 });
 buffet.addEventListener('click', () => {
-    Buffet.classList.toggle('active');
-    VideoBuffet.classList.toggle('active');
+    buffet.classList.toggle('active');
+    videoBuffet.classList.toggle('active');
 });
