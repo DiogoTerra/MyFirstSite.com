@@ -194,7 +194,7 @@ footer p{
 
    /* resolução para smartphone */
 
-   @media (max-width: 500px) {
+   @media (max-width: 430px) {
      .imagem img {
         width: 100px;
         margin-top: 30px;
