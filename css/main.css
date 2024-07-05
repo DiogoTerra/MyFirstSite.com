@@ -175,8 +175,8 @@ footer p{
           margin-top: 25px;
      }
      .texto{
-         width: 300px;
-         height: 200px;
+         width: 800px;
+         height: 400px;
      }
      .linguagem img{
          width: 160px;
@@ -188,7 +188,7 @@ footer p{
         width: 350px;
      }
      .video{
-        width: 250px;
+        width: 400px;
      }
    }/* resolução para smarthphone */
 
@@ -203,9 +203,9 @@ footer p{
         font-size: 40px;
        }
      .texto{
-        width: 200px;
-        height: 620px;
-        padding: 20px;
+        width: 900px;
+        height: 400px;
+        padding: 80px;
 
        }
      .sobre-mim {
@@ -215,7 +215,7 @@ footer p{
         font-size: 25px;
      }
      .item {
-        width: 260px;
+        width: 300px;
         height: 40px;
         margin-top: 15px;
      }
