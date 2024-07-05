@@ -1,21 +1,21 @@
-const casamentos = document.getElementById('casamentos');
-const album= document.getElementById('album');
-const buffet = document.getElementById('buffet');
+const projetos = document.getElementById('projetos');
+const codigos= document.getElementById('codigos');
+const jogos = document.getElementById('jogos');
 
-const videoCasamentos = document.querySelector('#videoCasamentos');
-const videoAlbum = document.querySelector('#videoAlbum');
-const videoBuffet = document.querySelector('#videoBuffet');
+const videoprojetos = document.querySelector('#videoprojetos');
+const videocodigos = document.querySelector('#videocodigos');
+const videojogos = document.querySelector('#videojogos');
 
 
-casamentos.addEventListener('click', () => {
-    casamentos.classList.toggle('active');
-    videoCasamentos.classList.toggle('active');
+projetos.addEventListener('click', () => {
+    projetos.classList.toggle('active');
+    videoprojetos.classList.toggle('active');
 });
-album.addEventListener('click', () => {
-    album.classList.toggle('active');
-    videoAlbum.classList.toggle('active');
+codigos.addEventListener('click', () => {
+    codigos.classList.toggle('active');
+    videocodigos.classList.toggle('active');
 });
-buffet.addEventListener('click', () => {
-    buffet.classList.toggle('active');
-    videoBuffet.classList.toggle('active');
+jogos.addEventListener('click', () => {
+    jogos.classList.toggle('active');
+    videojogos.classList.toggle('active');
 });
